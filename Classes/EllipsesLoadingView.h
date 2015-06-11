@@ -1,6 +1,5 @@
 //
 //  EllipsesLoadingView.h
-//  BoxTest
 //
 //  Created by Odie Edo-Osagie on 03/06/2015.
 //  Copyright (c) 2015 Odie Edo-Osagie. All rights reserved.

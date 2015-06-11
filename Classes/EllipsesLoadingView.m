@@ -1,6 +1,5 @@
 //
 //  EllipsesLoadingView.m
-//  BoxTest
 //
 //  Created by Odie Edo-Osagie on 03/06/2015.
 //  Copyright (c) 2015 Odie Edo-Osagie. All rights reserved.
@@ -21,15 +20,15 @@
         _unHighlightedColour = [UIColor lightGrayColor];
         _highlightedColour = [UIColor darkGrayColor];
         
-        _leftDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, height/4.5)];
+        _leftDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, width/4.5)];
         _leftDot.backgroundColor = _unHighlightedColour;
         _leftDot.layer.cornerRadius = _leftDot.frame.size.width/2.0;
         
-        _middleDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, height/4.5)];
+        _middleDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, width/4.5)];
         _middleDot.backgroundColor = _unHighlightedColour;
         _middleDot.layer.cornerRadius = _middleDot.frame.size.width/2.0;
         
-        _rightDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, height/4.5)];
+        _rightDot = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width/4.5, width/4.5)];
         _rightDot.backgroundColor = _unHighlightedColour;
         _rightDot.layer.cornerRadius = _rightDot.frame.size.width/2.0;
         
@@ -39,7 +38,7 @@
         
         [self addSubview:_leftDot];
         [self addSubview:_rightDot];
-        [self addSubview:_middleDot];        
+        [self addSubview:_middleDot];
     }
     
     return self;
