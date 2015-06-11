@@ -14,6 +14,14 @@
 		4CCDA8751B29D7D00075EEA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8741B29D7D00075EEA0 /* Images.xcassets */; };
 		4CCDA8781B29D7D00075EEA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8761B29D7D00075EEA0 /* LaunchScreen.xib */; };
 		4CCDA8841B29D7D00075EEA0 /* EllipsisLoadingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDA8831B29D7D00075EEA0 /* EllipsisLoadingViewDemoTests.m */; };
+		4CCDA8A81B29D8820075EEA0 /* EllipsesLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A01B29D8820075EEA0 /* EllipsesLoadingView.m */; };
+		4CCDA8A91B29D8820075EEA0 /* jinn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A21B29D8820075EEA0 /* jinn.jpg */; };
+		4CCDA8AA1B29D8820075EEA0 /* kenobi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A31B29D8820075EEA0 /* kenobi.jpg */; };
+		4CCDA8AB1B29D8820075EEA0 /* mundi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A41B29D8820075EEA0 /* mundi.jpg */; };
+		4CCDA8AC1B29D8820075EEA0 /* secura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A51B29D8820075EEA0 /* secura.jpg */; };
+		4CCDA8AD1B29D8820075EEA0 /* skywalker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A61B29D8820075EEA0 /* skywalker.jpg */; };
+		4CCDA8AE1B29D8820075EEA0 /* windu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDA8A71B29D8820075EEA0 /* windu.jpg */; };
+		4CCDA8B11B29D88A0075EEA0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDA8B01B29D88A0075EEA0 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,16 @@
 		4CCDA87D1B29D7D00075EEA0 /* EllipsisLoadingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllipsisLoadingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCDA8821B29D7D00075EEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCDA8831B29D7D00075EEA0 /* EllipsisLoadingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EllipsisLoadingViewDemoTests.m; sourceTree = "<group>"; };
+		4CCDA89F1B29D8820075EEA0 /* EllipsesLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsesLoadingView.h; sourceTree = "<group>"; };
+		4CCDA8A01B29D8820075EEA0 /* EllipsesLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipsesLoadingView.m; sourceTree = "<group>"; };
+		4CCDA8A21B29D8820075EEA0 /* jinn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinn.jpg; sourceTree = "<group>"; };
+		4CCDA8A31B29D8820075EEA0 /* kenobi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenobi.jpg; sourceTree = "<group>"; };
+		4CCDA8A41B29D8820075EEA0 /* mundi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mundi.jpg; sourceTree = "<group>"; };
+		4CCDA8A51B29D8820075EEA0 /* secura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secura.jpg; sourceTree = "<group>"; };
+		4CCDA8A61B29D8820075EEA0 /* skywalker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skywalker.jpg; sourceTree = "<group>"; };
+		4CCDA8A71B29D8820075EEA0 /* windu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windu.jpg; sourceTree = "<group>"; };
+		4CCDA8AF1B29D88A0075EEA0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		4CCDA8B01B29D88A0075EEA0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,8 @@
 				4CCDA8711B29D7D00075EEA0 /* Main.storyboard */,
 				4CCDA8741B29D7D00075EEA0 /* Images.xcassets */,
 				4CCDA8761B29D7D00075EEA0 /* LaunchScreen.xib */,
+				4CCDA8AF1B29D88A0075EEA0 /* ListViewController.h */,
+				4CCDA8B01B29D88A0075EEA0 /* ListViewController.m */,
 				4CCDA8671B29D7D00075EEA0 /* Supporting Files */,
 			);
 			path = EllipsisLoadingViewDemo;
@@ -96,6 +116,8 @@
 		4CCDA8671B29D7D00075EEA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CCDA89E1B29D8820075EEA0 /* EllipsisLoadingView */,
+				4CCDA8A11B29D8820075EEA0 /* Images */,
 				4CCDA8681B29D7D00075EEA0 /* Info.plist */,
 				4CCDA8691B29D7D00075EEA0 /* main.m */,
 			);
@@ -117,6 +139,28 @@
 				4CCDA8821B29D7D00075EEA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCDA89E1B29D8820075EEA0 /* EllipsisLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDA89F1B29D8820075EEA0 /* EllipsesLoadingView.h */,
+				4CCDA8A01B29D8820075EEA0 /* EllipsesLoadingView.m */,
+			);
+			path = EllipsisLoadingView;
+			sourceTree = "<group>";
+		};
+		4CCDA8A11B29D8820075EEA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDA8A21B29D8820075EEA0 /* jinn.jpg */,
+				4CCDA8A31B29D8820075EEA0 /* kenobi.jpg */,
+				4CCDA8A41B29D8820075EEA0 /* mundi.jpg */,
+				4CCDA8A51B29D8820075EEA0 /* secura.jpg */,
+				4CCDA8A61B29D8820075EEA0 /* skywalker.jpg */,
+				4CCDA8A71B29D8820075EEA0 /* windu.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCDA8731B29D7D00075EEA0 /* Main.storyboard in Resources */,
+				4CCDA8AD1B29D8820075EEA0 /* skywalker.jpg in Resources */,
+				4CCDA8AA1B29D8820075EEA0 /* kenobi.jpg in Resources */,
 				4CCDA8781B29D7D00075EEA0 /* LaunchScreen.xib in Resources */,
+				4CCDA8AE1B29D8820075EEA0 /* windu.jpg in Resources */,
+				4CCDA8A91B29D8820075EEA0 /* jinn.jpg in Resources */,
 				4CCDA8751B29D7D00075EEA0 /* Images.xcassets in Resources */,
+				4CCDA8AB1B29D8820075EEA0 /* mundi.jpg in Resources */,
+				4CCDA8AC1B29D8820075EEA0 /* secura.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCDA8B11B29D88A0075EEA0 /* ListViewController.m in Sources */,
 				4CCDA8701B29D7D00075EEA0 /* ViewController.m in Sources */,
 				4CCDA86D1B29D7D00075EEA0 /* AppDelegate.m in Sources */,
+				4CCDA8A81B29D8820075EEA0 /* EllipsesLoadingView.m in Sources */,
 				4CCDA86A1B29D7D00075EEA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +468,7 @@
 				4CCDA8891B29D7D00075EEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCDA88A1B29D7D00075EEA0 /* Build configuration list for PBXNativeTarget "EllipsisLoadingViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +477,7 @@
 				4CCDA88C1B29D7D00075EEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
